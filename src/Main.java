@@ -11,5 +11,10 @@ public class Main {
                 System.out.println ( start );
                 start -- ;
             }
+
+            // задание 2
+        for ( int i=1 ; i < 31 ; i = i + 5 ) {
+            System.out.println ( " Сегодня пятница! Необходимо подготовить отчет" + i ) ;
+        }
     }
 }
